@@ -90,7 +90,7 @@ s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MyComponent", "MyComponent/**/*.{h,m}"
+  s.source_files  = "Classes", "MyComponent/**/*.{h，m}/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -116,7 +116,7 @@ s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
