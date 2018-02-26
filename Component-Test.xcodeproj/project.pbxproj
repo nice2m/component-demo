@@ -15,6 +15,8 @@
 		BB7CCC1E2043F15600CF8B78 /* Component_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CCC1D2043F15600CF8B78 /* Component_TestTests.swift */; };
 		BB7CCC292043F15600CF8B78 /* Component_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CCC282043F15600CF8B78 /* Component_TestUITests.swift */; };
 		BB7CCC382043F44E00CF8B78 /* ATestImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CCC372043F44E00CF8B78 /* ATestImp.swift */; };
+		BB7CCC3A2044104F00CF8B78 /* MyComponent.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BB7CCC392044104F00CF8B78 /* MyComponent.podspec */; };
+		BB7CCC3C2044108E00CF8B78 /* FILE_LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BB7CCC3B2044108E00CF8B78 /* FILE_LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BB7CCC282043F15600CF8B78 /* Component_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component_TestUITests.swift; sourceTree = "<group>"; };
 		BB7CCC2A2043F15600CF8B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB7CCC372043F44E00CF8B78 /* ATestImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATestImp.swift; sourceTree = "<group>"; };
+		BB7CCC392044104F00CF8B78 /* MyComponent.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyComponent.podspec; sourceTree = "<group>"; };
+		BB7CCC3B2044108E00CF8B78 /* FILE_LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = FILE_LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +135,9 @@
 		BB7CCC362043F43500CF8B78 /* MyComponent */ = {
 			isa = PBXGroup;
 			children = (
+				BB7CCC392044104F00CF8B78 /* MyComponent.podspec */,
 				BB7CCC372043F44E00CF8B78 /* ATestImp.swift */,
+				BB7CCC3B2044108E00CF8B78 /* FILE_LICENSE */,
 			);
 			path = MyComponent;
 			sourceTree = "<group>";
@@ -243,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7CCC3A2044104F00CF8B78 /* MyComponent.podspec in Resources */,
 				BB7CCC132043F15600CF8B78 /* LaunchScreen.storyboard in Resources */,
 				BB7CCC102043F15600CF8B78 /* Assets.xcassets in Resources */,
 				BB7CCC0E2043F15600CF8B78 /* Main.storyboard in Resources */,
+				BB7CCC3C2044108E00CF8B78 /* FILE_LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
